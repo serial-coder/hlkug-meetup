@@ -1,6 +1,22 @@
 # Vagrant를 이용하여 하이퍼레저 패브릭 VM 구성하기
 
-[TOC]
+Table of Contents
+=================
+
+   * [Vagrant를 이용하여 하이퍼레저 패브릭 VM 구성하기](#vagrant를-이용하여-하이퍼레저-패브릭-vm-구성하기)
+      * [0. Vagrant?](#0-vagrant)
+      * [1. VirtualBox 설치](#1-virtualbox-설치)
+      * [2. Vagrant 설치](#2-vagrant-설치)
+      * [3. Vagrant 설치 확인 및 플러그인 설치](#3-vagrant-설치-확인-및-플러그인-설치)
+      * [4. Box(Image) 다운로드](#4-boximage-다운로드)
+      * [5. Vagrantfile 다운로드](#5-vagrantfile-다운로드)
+      * [6. VM(Guest Machine) 생성](#6-vmguest-machine-생성)
+      * [7. VM(Guest Machine) 접속](#7-vmguest-machine-접속)
+      * [8. VM(Guest Machine) 중지](#8-vmguest-machine-중지)
+      * [9. VM(Guest Machine) 재시작](#9-vmguest-machine-재시작)
+      * [10. VM(Guest Machine) 삭제](#10-vmguest-machine-삭제)
+      
+      
 
 ## 0. Vagrant?
 
@@ -91,6 +107,7 @@ Vagrantfile에 VM 형식, 설정, 프로비전등을 설정하는 설정 파일�
 * Vagrantfile
   * https://github.com/hlkug/meetup/tree/master/000000/vagrant/hyperledger_fabric/1.4.x/Vagrantfile
   * https://github.com/hlkug/meetup/tree/master/000000/vagrant/hyperledger_fabric/2.0.x/Vagrantfile
+  * https://github.com/hlkug/meetup/tree/master/000000/vagrant/hyperledger_fabric/2.1.x/Vagrantfile
 * Vagrantfile 설명
   * VM 수: vm_num
   * VM 형식: config.vm.box
